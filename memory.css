@@ -1,0 +1,50 @@
+body
+{
+	font-family: 'Press Start 2P', cursive;
+	font-size: 1.5rem;
+	background-color: black;
+	color: white;
+}
+a, a:visited, a:active, a:hover
+{
+	color: white;
+	text-decoration: none;
+}
+li
+{
+	list-style-type: square;
+}
+.finded
+{
+	opacity: 0.6;
+}
+table
+{
+	border: 0px;
+	max-width: 100%;
+	border-spacing: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+td
+{
+	width: 180px;
+	padding: 5px;
+	vertical-align: center;
+	text-align: center;
+}
+img
+{
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+#nojs
+{
+	color: red;
+}
+.unclickable
+{
+	pointer-events: none;
+}
